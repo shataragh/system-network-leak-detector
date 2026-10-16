@@ -16,12 +16,10 @@ Detect DNS leaks, WebRTC exposure, routing anomalies, multicast disclosure risks
 </p>
 
 <p align="center">
-
 ✅ Read-Only Operation &nbsp; • &nbsp;
 ✅ Cross-Platform &nbsp; • &nbsp;
 ✅ Privacy Focused &nbsp; • &nbsp;
 ✅ Zero Configuration Changes
-
 </p>
 
 ---
@@ -188,12 +186,12 @@ The framework follows a modular design pattern consisting of independent diagnos
 
 ```text
 ┌─────────────────────────────────────────────────────────────┐
-│                  OSI DIAGNOSTIC ENGINE                     │
+│                  OSI DIAGNOSTIC ENGINE                      │
 ├─────────────────────────────────────────────────────────────┤
-│ Layer 7 │ DNS Leak Detection • HTTP Analysis              │
-│ Layer 4 │ STUN Probing • UDP Listener Auditing            │
-│ Layer 3 │ Route Auditing • IPv6 Verification              │
-│ Layer 2 │ Interface Discovery • Adapter Enumeration       │
+│ Layer 7 │ DNS Leak Detection • HTTP Analysis                │
+│ Layer 4 │ STUN Probing • UDP Listener Auditing              │
+│ Layer 3 │ Route Auditing • IPv6 Verification                │
+│ Layer 2 │ Interface Discovery • Adapter Enumeration         │
 └─────────────────────────────────────────────────────────────┘
 ```
 
